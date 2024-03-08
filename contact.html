@@ -4,63 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <title>HandMade Goods</title>
     <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
 </head>
 <body>
-   
-   
     <header>
         <h1>HandMade Goods</h1>
         <nav>
+            <a href="home.html" class="button">Home</a>
+            <a href="signup.html" class="button active">Sign Up</a>
             
-            <button id="home-btn" class="button"><a href="index.html">Home</a></button>
-            <button id="signup-btn" class="button"> <a href="sign up.html">sign up</a></button>
-            <button id="contact-btn" class="button"><a href="contact.html">contact</a></button>
+            <a href="contact.html" class="button">connact</a>
             
-        
-             
         </nav>
     </header>
-   
-    <section class="search">
-        <h2>Search The Product</h2>
-        <input type="text" id="search-input" placeholder="Search ">
-        <button id="search-btn" class="button">Search</button>
-    </section>
-</main>
     <main>
-        <section class="products">
-            <h2>Featured Products</h2>
-            <div class="product">
-                <img src="https://img.freepik.com/premium-photo/making-handmade-jewellery-front-view-male-hands_155165-3683.jpg" alt="Product 1">
-                <h3>Handmade jewellery</h3>
-                <p>Handmade jewelry is made by an artist without the use of mass-manufacturing machines</p>
-            </div>
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YbN93KJHOs-bCxth0TM5wPiOJMfHzTtH0mbs8iWudoEj7y9sI-v0p161gmIzYpajLB4&usqp=CAU.jpg" alt="Product 2">
-                <h3>HandMade Kitchen items</h3>
-                <p>Hand-carved wooden spoons, spatulas, and ladles.
-                    Customized wooden cutting boards with engraved designs.</p>
-            </div>
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROex33JLX9F_UU7byAdkbqaFMMzmRMLwS0wA&usqp=CAU.jpg"alt="Product 3">
-                <h3>Handmade Wooden Toys</h3>
-                <p>Craft wooden toys for children, incorporating safe and non-toxic finishes.</p>
-            </div>
-            <div class="product">
-                <img src="https://c.ndtvimg.com/2018-11/l2al2kko_soap_625x300_15_November_18.jpg" alt="Product 4">
-                <h3>Handmade Soap</h3>
-                <p>Craft artisanal soaps with natural ingredients and unique scents. You can experiment with various shapes and colors</p>
-            </div>
+        <section class="box-container">
+            <h2>Sign Up</h2>
+            <form action="home.html">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
         </section>
-        <a href="#contact.html">Contact</a>
-        <a href="#sign up.html">Sign Up</a>
-        
-      </main>
-       <script src="script.js"></script>
+    </main>
 </body>
 </html>
-  
