@@ -1,44 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>HandMade Goods</title>
     <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
 </head>
 <body>
+   
+   
     <header>
-        <h1>Contact with us</h1>
+        <h1>HandMade Goods</h1>
+        <nav>
+            
+            <button id="home-btn" class="button"><a href="index.html">Home</a></button>
+            <button id="signup-btn" class="button"> <a href="sign up.html">sign up</a></button>
+            <button id="contact-btn" class="button"><a href="contact.html">contact</a></button>
+            
+        
+             
+        </nav>
     </header>
+   
+    <section class="search">
+        <h2>Search The Product</h2>
+        <input type="text" id="search-input" placeholder="Search ">
+        <button id="search-btn" class="button">Search</button>
+    </section>
+</main>
     <main>
-        <section class="contact-info">
-            <h2>Contact Information</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
-            <p>Address: 123 Main Street, City, State, ZIP</p>
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="https://img.freepik.com/premium-photo/making-handmade-jewellery-front-view-male-hands_155165-3683.jpg" alt="Product 1">
+                <h3>Handmade jewellery</h3>
+                <p>Handmade jewelry is made by an artist without the use of mass-manufacturing machines</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YbN93KJHOs-bCxth0TM5wPiOJMfHzTtH0mbs8iWudoEj7y9sI-v0p161gmIzYpajLB4&usqp=CAU.jpg" alt="Product 2">
+                <h3>HandMade Kitchen items</h3>
+                <p>Hand-carved wooden spoons, spatulas, and ladles.
+                    Customized wooden cutting boards with engraved designs.</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROex33JLX9F_UU7byAdkbqaFMMzmRMLwS0wA&usqp=CAU.jpg"alt="Product 3">
+                <h3>Handmade Wooden Toys</h3>
+                <p>Craft wooden toys for children, incorporating safe and non-toxic finishes.</p>
+            </div>
+            <div class="product">
+                <img src="https://c.ndtvimg.com/2018-11/l2al2kko_soap_625x300_15_November_18.jpg" alt="Product 4">
+                <h3>Handmade Soap</h3>
+                <p>Craft artisanal soaps with natural ingredients and unique scents. You can experiment with various shapes and colors</p>
+            </div>
         </section>
-        <section class="social-media">
-            <h2>Follow us on social media</h2>
-            <ul>
-                <li><a href="https://www.facebook.com">Facebook</a></li>
-                <li><a href="https://www.twitter.com">Twitter</a></li>
-                <li><a href="https://www.instagram.com">Instagram</a></li>
-                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-            </ul>
-        </section>
-        <section class="contact-form">
-            <h2>Send us a message</h2>
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-
-        </section>
-    </main>
+        <a href="#contact.html">Contact</a>
+        <a href="#sign up.html">Sign Up</a>
+        
+      </main>
+       <script src="script.js"></script>
 </body>
 </html>
+  
